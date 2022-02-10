@@ -9,7 +9,7 @@ Add your GitLab activity to GitHub contribution charts
 ### Steps:
 - Fork this repo.
 - Git clone the repo from your account.
-- Copy the .env.sample to .env and fill in the expected values. You will need a private token from your gitlab instance and a gitlab base url looks like git.qed42.net
+- Copy the .env.sample to .env and fill in the expected values. You will need a private token with API access from your gitlab instance and a gitlab base url looks like git.qed42.net. refer https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html
 - Run the following commands.
 ```bash
 $ python gitlab-in-green.py
